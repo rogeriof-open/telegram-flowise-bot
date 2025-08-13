@@ -1,14 +1,5 @@
-# Bot do Telegram
-python-telegram-bot==20.3
-
-# Requisições HTTP para integração com Flowise
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
 httpx==0.27.0
+pydantic==2.8.2
 
-# Gerenciamento de variáveis de ambiente (.env)
-python-dotenv==1.0.1
-
-# Logs estruturados (opcional, mas recomendado)
-loguru==0.7.2
-
-# Manipulação de JSON avançada (opcional, se precisar)
-ujson==5.10.0
